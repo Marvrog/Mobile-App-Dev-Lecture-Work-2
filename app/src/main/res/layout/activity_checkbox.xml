@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".CheckBox">
+
+    <CheckBox
+        android:id="@+id/checkBoxpizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Computer Science"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxburger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxburger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxhotdog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxpizza" />
+
+    <CheckBox
+        android:id="@+id/checkBoxhotdog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Enginnering"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/button_TotalBill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxburger" />
+
+    <Button
+        android:id="@+id/button_TotalBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxhotdog" />
+</androidx.constraintlayout.widget.ConstraintLayout>

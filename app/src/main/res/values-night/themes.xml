@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Covapps" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryVariant">#FF0000</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#FF3300</item>
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/Theme.MaterialComponents</item>
+        <item name="titleTextColor">#FFFFFF</item>
+    </style>
+</resources>

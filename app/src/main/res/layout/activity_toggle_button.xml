@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFAA44"
+    tools:context=".ToggleButton">
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButtonGroup"
+        android:layout_width="391dp"
+        android:layout_height="328dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382"
+        app:singleSelection="true">
+
+
+        <Button
+            android:id="@+id/btnWeb"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:background="#FF0000FF"
+            android:textColor="#000000"
+            android:text="Web" />
+
+        <Button
+            android:id="@+id/btnAndroid"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="119dp"
+            android:layout_height="58dp"
+            android:text="Android"
+            android:textColor="#000000"
+            android:background="#FFFF0000"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <Button
+            android:id="@+id/btnFlutter"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="97dp"
+            android:layout_height="58dp"
+            android:text="Flutter"
+            android:textColor="#000000"
+            android:background="#FF00FF00"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

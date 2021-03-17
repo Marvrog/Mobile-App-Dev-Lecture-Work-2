@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FF009955"
+    tools:context=".AlertDialog">
+
+    <Button
+        android:id="@+id/btnBasicAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="BASIC ALERT DIALOG" />
+
+
+    <Button
+        android:id="@+id/btnAlertWithIconsAndCustomize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH ICON AND CUSTOMIZATION" />
+
+    <Button
+        android:id="@+id/btnAlertWithItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH ITEMS" />
+
+    <Button
+        android:id="@+id/btnAlertWithMultiChoiceList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH MULTI CHOICE LIST" />
+
+    <Button
+        android:id="@+id/btnAlertWithStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH STYLE" />
+
+
+    <Button
+        android:id="@+id/btnAlertWithCustomStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH CUSTOM STYLE" />
+
+    <Button
+        android:id="@+id/btnAlertWithButtonCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH BUTTON CENTERED" />
+
+    <Button
+        android:id="@+id/btnAlertWithEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicAlert"
+        android:background="#444444"
+        android:text="WITH EDIT TEXT" />
+
+
+</LinearLayout>
